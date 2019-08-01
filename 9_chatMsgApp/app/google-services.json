@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "891567380769",
+    "firebase_url": "https://chatmsgapp-27ff6.firebaseio.com",
+    "project_id": "chatmsgapp-27ff6",
+    "storage_bucket": "chatmsgapp-27ff6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891567380769:android:01aac42a1bea059b",
+        "android_client_info": {
+          "package_name": "com.example.firebasechatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891567380769-ms973hqgd7tv2o7i7a0eig0kin36oi7j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebasechatapp",
+            "certificate_hash": "6640d139ede23ad8e06f91c14dd024b2034d2dcb"
+          }
+        },
+        {
+          "client_id": "891567380769-pr44qvf1s7ldc5dk3o5ifmc1cjracrg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv7YGvQEPXqThh2Vu2FtITXaQnV1-7C90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891567380769-pr44qvf1s7ldc5dk3o5ifmc1cjracrg1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "6307260092",
+    "firebase_url": "https://fresh-ember-245303.firebaseio.com",
+    "project_id": "fresh-ember-245303",
+    "storage_bucket": "fresh-ember-245303.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6307260092:android:0c628b3e52cf8c9d",
+        "android_client_info": {
+          "package_name": "com.example.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6307260092-s0fsv870usjv7njh251jkujkkrq918o8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebaseauth",
+            "certificate_hash": "6640d139ede23ad8e06f91c14dd024b2034d2dcb"
+          }
+        },
+        {
+          "client_id": "6307260092-rdmdk9vedio4ir6enlacq02lobv2dju5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQvT-11e3BLST96TCSOwlgqUlAvNkIpC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6307260092-rdmdk9vedio4ir6enlacq02lobv2dju5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

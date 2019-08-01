@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        tools:context=".MainActivity">
+
+    <TextView
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:id="@+id/login_tv"
+            android:text="Login"
+            android:textColor="#020202"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/email_l"
+            android:layout_below="@id/login_tv"
+            android:hint="Enter Email">
+        <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/_email_l"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/pass_l"
+            android:layout_below="@id/email_l"
+            app:passwordToggleEnabled="true"
+            android:hint="Password">
+        <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/_pass_l"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/logn_btn"
+            android:text="Login"
+            android:layout_below="@id/pass_l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView android:layout_marginTop="15dp"
+              android:textColor="#020202"
+              android:id="@+id/sign_up_tv_btn"
+              android:layout_centerHorizontal="true"
+              android:layout_below="@id/logn_btn"
+              android:text="Already had an account, Sign In"
+              android:textSize="17dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="20dp"/>
+
+    <ProgressBar
+            android:visibility="invisible"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/pass_l"
+            android:id="@+id/progress_bar"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+
+</RelativeLayout>

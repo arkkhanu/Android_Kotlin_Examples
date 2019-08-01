@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Be One Shop One</string>
+    <string name="refresh">Refresh</string>
+    <string name="no_internet_access">No Internet Access</string>
+</resources>

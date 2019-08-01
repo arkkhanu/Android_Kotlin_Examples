@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:fillViewport="true"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        tools:context=".registrationActivity">
+
+    <RelativeLayout
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:id="@+id/reg_tv"
+                android:text="Registration"
+                android:textColor="#020202"
+                android:textSize="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/name_"
+                android:layout_below="@id/reg_tv"
+                android:layout_width="match_parent"
+                android:hint="Enter Name"
+                android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/_name_"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:minLines="1"
+                    android:singleLine="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/email_"
+                android:layout_width="match_parent"
+                android:hint="Enter Email"
+                android:layout_below="@id/name_"
+                android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/_email_"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:minLines="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+                android:id="@+id/linear_layout"
+                android:layout_below="@id/email_"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/age_"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:hint="Enter Age"
+                    android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/_age_"
+                        android:inputType="number"
+                        android:minLines="1"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <RadioGroup
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:id="@+id/radio_"
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                <RadioButton
+                        android:id="@+id/male_"
+                        android:text="Male"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                <RadioButton
+                        android:id="@+id/female_"
+                        android:text="Female"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/pass_"
+                android:layout_width="match_parent"
+                android:hint="Password"
+                app:passwordToggleEnabled="true"
+                android:layout_below="@id/linear_layout"
+                android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/_pass_"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/confpass_"
+                android:layout_width="match_parent"
+                android:hint="Confirm Password"
+                app:passwordToggleEnabled="true"
+                android:layout_below="@id/pass_"
+                android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/_confirmpass_"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+                android:layout_marginTop="20dp"
+                android:text="Sign Up"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/btn_registered"
+                android:layout_below="@id/confpass_"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"/>
+
+        <TextView
+                android:layout_marginTop="15dp"
+                android:textColor="#020202"
+                android:id="@+id/sign_in_tv_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/btn_registered"
+                android:text="Already had an account, Sign In"
+                android:textSize="17dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"/>
+
+    </RelativeLayout>
+</ScrollView>
